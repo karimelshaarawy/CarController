@@ -1,0 +1,7 @@
+From my point of view and the provided information I think that backend should contain the following:
+1- Restful API endpoints
+	> Get/speedData: to retrieve live speed data from sensors through BLE connection
+	> Post/speedData: to calibrate the speed of the car.
+2- Use WebSocket for real-time data streaming to the frontend.
+3- Choose database for speed history storage as Isar database or upgrade to fireStore database as it offers Real time synchronisation and security
+4- Use Firebase for authentication and authorisation.
